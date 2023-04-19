@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "tag": "ask",
+      "model": "gpt-3.5-turbo",
+      "patterns": "reschedule" ,
+      "message": [
+        {
+          "role": "user",
+          "content": "set same time unit 15 minutes for this schedule into table:\\nMonday: \\nfrom 6:30AM to 7:35AM: prepare statistics\\nfrom 8:00 AM to 9:00 AM: play tennis table\\nfrom 12:30 PM to 3:50 PM: learn at school\\nTuesday:\\nfrom 7:00 AM to 10:30 AM: prepare database and OOP,from 12:30 PM to ,from 3:05 PM to 5:30 PM: learn OOP at school Wednesday: from 6:45 AM to 10:05 AM: learn calculus II at school,from 2:00 PM to 5:00 PM: learn by self,from 6:00 PM to 8:00 PM: have a meeting,from 10:00 PM to 11:55 PM: prepare Machine learning"
+        }
+      ],
+      "responses": ["\nMonday: from 6:30AM to 7:35AM: prepare statistics\nfrom 8:00 AM to 9:00 AM: play tennis table\nfrom 12:30 PM to 3:50 PM: learn at school\nTuesday:\nfrom 7:00 AM to 10:30 AM: prepare database and OOP,from 12:30 PM to ,from 3:05 PM to 5:30 PM: learn OOP at school Wednesday: from 6:45 AM to 10:05 AM: learn calculus II at school,from 2:00 PM to 5:00 PM: learn by self,from 6:00 PM to 8:00 PM: have a meeting,from 10:00 PM to 11:55 PM: prepare Machine learning"]
+    }
+  ]
+}
